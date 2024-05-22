@@ -4,6 +4,14 @@
 
 This project involves implementing and evaluating a K-Nearest Neighbors (KNN) algorithm to classify the Oxford 102 Flowers Dataset. The primary goal is to optimize the algorithm's parameters and assess its performance using various metrics.
 
+## Installation
+
+To run the project, ensure you have Python installed along with the necessary libraries. You can install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Key Functions
 
 ### `gather_clusters_data`
