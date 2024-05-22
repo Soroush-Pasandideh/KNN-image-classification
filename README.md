@@ -44,9 +44,11 @@ pip install -r requirements.txt
 - **Accuracy**: The accuracy of the model varies with different \( k1 \) and \( k2 \) values.
   - Best performance observed with \( k1 = 7 \) and \( k2 = 5 \).
   - Detailed results and comparisons are available in the document file.
+<img src="./table images/Accuracy.png" width="50%" height="50%">
  
 - **Computation Time**: The computational time for training and testing increases with higher values of \( k1 \) and \( k2 \).
   - Optimal balance achieved with \( k1 = 7 \) and \( k2 = 5 \).
+<img src="./table images/Computation Time.png" width="50%" height="50%">
 
 ## Conclusion
 
