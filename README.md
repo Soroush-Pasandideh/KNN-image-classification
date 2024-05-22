@@ -3,6 +3,7 @@
 ## Overview
 
 This project involves implementing and evaluating a K-Nearest Neighbors (KNN) algorithm to classify the Oxford 102 Flowers Dataset. The primary goal is to optimize the algorithm's parameters and assess its performance using various metrics.
+
 Unsupervised Classification with K-Means Algorithm:
 We begin by applying the K-means algorithm to cluster the data into meaningful groups.
 K-means identifies patterns and structures within the feature space without relying on labeled data.
