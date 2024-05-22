@@ -2,16 +2,15 @@
 
 ## Overview
 
-This project involves implementing and evaluating a K-Nearest Neighbors (KNN) algorithm to classify the Oxford 102 Flowers Dataset. The primary goal is to optimize the algorithm's parameters and assess its performance using various metrics.
+In this project, we aim to utilize the features extracted from the Flower102 dataset images to develop a robust classification model. The Flower102 dataset consists of images categorized into 102 different classes, with each image represented by a 512-dimensional feature vector. The dataset is divided into two sections: a training set with 4094 instances and a testing set with 4095 instances.
 
-#### Unsupervised Classification with K-Means Algorithm:
-We begin by applying the K-means algorithm to cluster the data into meaningful groups.
-K-means identifies patterns and structures within the feature space without relying on labeled data.
-The resulting clusters provide insights into the underlying data distribution.
-#### Supervised Classification with K-Nearest Neighbors (K-NN):
-In the subsequent section, we delve into supervised classification using the K-Nearest Neighbors (K-NN) algorithm.
-K-NN assigns labels to data points based on the majority class among their nearest neighbors.
-Our objective is to achieve the best possible classification accuracy.
+Our approach involves two main stages:
+
+1. **Unsupervised Classification with k-means Algorithm**: We first perform an unsupervised classification of the dataset using the k-means clustering algorithm. This step helps in grouping similar data points together based on their feature vectors without any prior labels.
+
+2. **Supervised Classification with K-Nearest Neighbors (KNN) Algorithm**: After the initial clustering, we break down the data into smaller groups and apply the K-Nearest Neighbors algorithm. This supervised learning technique is used to classify the data points more accurately by leveraging the labeled training data.
+
+The objective is to achieve the best possible classification score by optimizing the parameters of the KNN algorithm, particularly the number of clusters (k1) and the number of nearest neighbors (k2).
 
 ## Installation
 
