@@ -12,6 +12,8 @@ Our approach involves two main stages:
 
 The objective is to achieve the best possible classification score by optimizing the parameters of the KNN algorithm, particularly the number of clusters (k1) and the number of nearest neighbors (k2).
 
+<img src="./table images/KNN.png" width="100%" height="100%">
+
 ## Installation
 
 To run the project, ensure you have Python installed along with the necessary libraries. You can install the required packages using:
