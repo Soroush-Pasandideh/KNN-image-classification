@@ -1,4 +1,4 @@
-# Machine Learning Project - Phase 3
+# KNN image classification
 
 ## Overview
 
